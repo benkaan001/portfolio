@@ -296,4 +296,10 @@ figcaption{
   }
 
 
+ figcaption{
+        margin-left: 5px;
+        margin-top: -45%;
+        font-size: 5px;
+    }
+
 }
