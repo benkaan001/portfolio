@@ -16,7 +16,7 @@
       background-color: rgb(230, 224, 219,1);
     }
   
-  /* apply styles to <header> */
+  
   header {
       padding: 20px 35px;
       background-color: var(--secondary);
@@ -118,7 +118,7 @@
     align-items: center;
   }
   
-   /* ADD BORDER  */
+   /* BORDER  */
 
 
 .border {
