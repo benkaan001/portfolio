@@ -249,87 +249,51 @@ figcaption{
     
  /*MEDIA QUERY FOR SMALLER-SCREEN-SIZE DEVICES*/
 
-@media screen and (max-width: 750px) {
-    header {
-      width: 100%;
-      justify-content: center;
-    }
+@media screen and (max-width: 750px) { 
 
-    header div {
-        margin: 0;
-    }
-  
-    header h1 {
-      width: 100%;
-      text-align: center;
-      font-size: 35px;
-      font-weight: bold;
-      border: none;
-      padding: 0;
-    }
-  
-    header nav ul {
-      margin-top: 20px;
-      width: 100%;
-      justify-content: center;
-      flex-direction: row;
-      line-height: 1.5;
-    }
-  
-    header nav ul li a {
-      font-size: 16px;
-      font-weight: bold;
-    }
-
-    .hero{
-      background-size: cover;
-    }
-
-    .profile-pic{
-      height: 100px;
-      width: 100px;
-    }
-    .hero h2 {      
-      font-size: 25px;
-      margin-top: 320px;
-      }
-
-    .step-text p{
-        width: 90%;
-      }
-
-    .section-title {
-      width: 100%;
-      text-align: right;
-      font-weight: bold;
-    }
-
-   
-    .container{
-      width: 100%;
-      flex-direction: column;
-    }
-
-    .contact-info ul {     
-      width: 100%;
-      justify-content: left;
-      flex-direction: column;      
-  }
-    
-    .contact-info ul li a {
-        font-size: 18px;
-        line-height: 2;  
-        font-weight: bold;
-  }
-
-   
-    .profile-pic {
-        top:200px;
-    }
-      
-    figcaption{
-        margin-left: 5px;
-        font-size: 5px;
-    }
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
 
   }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header h2{
+    text-align: center;
+    width: 100%;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .section-title{
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .contact-info ul {
+    width: 100%;
+    justify-content: left;
+    flex-direction: column;
+
+  }
+
+  .flex-row {
+    flex: 1 100%;
+  }
+
+
+}
