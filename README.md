@@ -17,10 +17,14 @@ The purpose of this project is to create a portfolio for a potential employer wh
 
 * HTML
 * CSS
+* JS
 
 ## Preview
 
+https://benkaan001.github.io/portfolioChallenge/
+
 ![preview](https://user-images.githubusercontent.com/88162275/130365749-8481bed4-435f-4a00-af5d-44464faffaf9.png)
+
 
 
 ## Criteria
